@@ -1,41 +1,72 @@
-*{
+/* mixing */
+@mixin reset {
     margin: 0%;
     padding: 0%;
+    border: 0;
     font-family: Montserrat, sans-serif;
 }
+@mixin color-mobile {
+    color: $color-mobile ;
+    text-shadow: 1px 1px 4px #000;
+}
 
+/* variables */
+$color-titulo: #a4a4a4;
+$color-subtitulo: #44413f;
+$color-mobile:#ccc;
+
+/* imports */
 @import "navbar_index";
 @import "footer";
 
+*{
+    @include reset();
+}
+
 .main{
-    position: relative;
     background: url(../img/banner01.jpg);
     min-height: 100vh;
+    position: relative;
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     padding: 280px 0 220px;
     .container{
         .row{
-            h2{
-                font-size: 2.6em;
-                color: #a4a4a4;
-                text-transform: uppercase;
-                font-weight: bold;
+            .col-sm-12{
+                h1{
+                    font-size: 2.6em;
+                    color: $color-titulo;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+                p{
+                    margin-top: 1em;
+                    padding: 0;
+                    font-size: 18px;
+                    color: $color-subtitulo;
+                    padding-bottom: 25px; 
+                }
+                .readMore{
+                    background: #718093;
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+                    text-decoration: none;
+                }
             }
-            p{
-                margin-top: 1em;
-                padding: 0;
-                font-size: 18px;
-                color: #44413f;
-                padding-bottom: 25px; 
-            }
-            .readMore{
-                background: #718093;
-                color: #fff;
-                border-radius: 5px;
-                padding: 10px 20px;
-                text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .main{
+        background-position: 69%;
+        .container{
+            .row{
+                p{
+                    @include color-mobile();
+                }
             }
         }
     }

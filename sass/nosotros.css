@@ -1,10 +1,5 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  border: 0;
-  font-family: Montserrat, sans-serif;
-}
-
+/* Mixing */
+/* Imports */
 * {
   margin: 0%;
   padding: 0%;
@@ -51,6 +46,13 @@
   height: 30px;
 }
 
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+  font-family: Montserrat, sans-serif;
+}
+
 section .banner-box {
   width: 100%;
   height: 490px;
@@ -66,10 +68,15 @@ section .banner-box img {
 }
 section .banner-box .text_img {
   color: #ccc;
+  text-shadow: 1px 1px 4px #000;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.py-5 .row .col-lg-6 .fw-light {
+  padding-bottom: 30px;
 }
 
 .container_cont {
@@ -80,4 +87,15 @@ section .banner-box .text_img {
 }
 .container_cont .row .col-lg-4 {
   text-align: center;
+}
+.container_cont .row .col-lg-4 .fw-normal {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container_cont .row .col-lg-4 p {
+  padding: 0 20px;
+}
+.container_cont .row .col-lg-4 .btn {
+  margin-bottom: 30px;
+  margin-top: 20px;
 }/*# sourceMappingURL=nosotros.css.map */

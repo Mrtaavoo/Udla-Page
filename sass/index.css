@@ -1,9 +1,6 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  font-family: Montserrat, sans-serif;
-}
-
+/* mixing */
+/* variables */
+/* imports */
 * {
   margin: 0%;
   padding: 0%;
@@ -50,32 +47,49 @@
   height: 30px;
 }
 
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+  font-family: Montserrat, sans-serif;
+}
+
 .main {
-  position: relative;
   background: url(../img/banner01.jpg);
   min-height: 100vh;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   padding: 280px 0 220px;
 }
-.main .container .row h2 {
+.main .container .row .col-sm-12 h1 {
   font-size: 2.6em;
   color: #a4a4a4;
   text-transform: uppercase;
   font-weight: bold;
 }
-.main .container .row p {
+.main .container .row .col-sm-12 p {
   margin-top: 1em;
   padding: 0;
   font-size: 18px;
   color: #44413f;
   padding-bottom: 25px;
 }
-.main .container .row .readMore {
+.main .container .row .col-sm-12 .readMore {
   background: #718093;
   color: #fff;
   border-radius: 5px;
   padding: 10px 20px;
   text-decoration: none;
+}
+
+@media (max-width: 425px) {
+  .main {
+    background-position: 69%;
+  }
+  .main .container .row p {
+    color: #ccc;
+    text-shadow: 1px 1px 4px #000;
+  }
 }/*# sourceMappingURL=index.css.map */

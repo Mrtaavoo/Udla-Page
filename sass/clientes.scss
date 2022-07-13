@@ -1,11 +1,11 @@
-/* Mixing */
+/* mixing */
 @mixin reset {
     margin: 0%;
     padding: 0%;
     border: 0;
     font-family: Montserrat, sans-serif;
 }
-@mixin paddings-info-personal {
+@mixin paddings-info-client {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -14,9 +14,10 @@
     margin-top: 20px;
 }
 
-/* Imports */
+/* imports */
 @import "navbar";
 @import "footer";
+
 
 *{
     @include reset();
@@ -28,13 +29,13 @@ section{
         height: 490px;
         position: relative;
         display: inline-block;
-        text-align: center;
+        text-align: center;      
         img{
             object-fit: cover;
             width: 100%;
-            height: 100%;
+            height: 100%;        
         }
-        .text_img{
+        .text_img{      
             color: #ccc;
             text-shadow: 1px 1px 4px #000;
             position: absolute;
@@ -45,27 +46,23 @@ section{
     }
 }
 
-.py-5{
-    .row{
-        .col-lg-6{
-            .fw-light{
-                padding-bottom: 30px;
-            }
-        }
-    }
-}
 
 .container_cont{
     padding-bottom: 5%;
     .row{
         --bs-gutter-x: 0;
+        padding-top: 50px;
         .col-lg-4{
             text-align: center;
-            .fw-normal{
-                @include paddings-info-personal();
+            img{
+                width: 204px;
+                height: 200px;
             }
             p{
-                padding: 0 20px;
+                padding: 0 20px
+            }
+            .fw-normal{
+                @include paddings-info-client();
             }
             .btn{
                 @include margin-btn();
