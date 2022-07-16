@@ -61,6 +61,10 @@ section{
         --bs-gutter-x: 0;
         .col-lg-4{
             text-align: center;
+            img{
+                width: 204px;
+                height: 200px;
+            }
             .fw-normal{
                 @include paddings-info-personal();
             }

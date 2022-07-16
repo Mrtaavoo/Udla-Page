@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./sass/nosotros.css">
     <title>Nosotros</title>
 </head>
@@ -60,43 +61,40 @@
     </section>
 
 
-    <section class="py-5 text-center container">
+    <section data-aos="fade-up" data-aos-duration="2000" class="py-5 text-center container">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light">Quienes somos?</h1>
             <p class="lead text-muted">En el 2019 nace la idea de un estudiante Analista programador el cual queria unir el ambito del soporte de Hardware y el del desarrollo web, con esto empieza a nacer Good Service, brindando los servicios de soporte tecnico, dando mantenimiento y reparacion a Hardware, para luego empezar a realizar nuevos servicios especializados como el diseño y la programacion web.</p>
           </div>
         </div>
-      </section>
+    </section>
     
 
-    <div class="container_cont marketing">
+    <div data-aos="fade-up" data-aos-duration="2000" class="container_cont marketing">
 
         <!-- Info personal -->
         <div class="row">
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
+            <img class="rounded-circle" src="./img/javi.jpeg" alt="">    
             <h2 class="fw-normal">Administrador</h2>
             <h5>Javier Araneda</h5>
             <p>Experto en el area de administracion y dando el mejor desempeño para la empresa y el servicio para los clientes</p>
-            <a class="btn btn-secondary" href="#">View details &raquo;</a>
           </div>
+
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
+            <img class="rounded-circle" src="./img/tavo.jpg" alt="">   
             <h2 class="fw-normal">Analista Programador</h2>
             <h5>Gustavo Vergara</h5>
             <p>Fundador de GoodService encargado de la programacion y soporte de la empresa, dando los mejores servicios para los clientes </p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
           </div>
+
           <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-    
+            <img class="rounded-circle" src="./img/nico.jpeg" alt="">   
             <h2 class="fw-normal">Ingeniero en Electronica</h2>
-            <h5>Nicolas Albornos</h5>
+            <h5>David Albornoz</h5>
             <p>Encargado de realizar el soporte y reparacion de los quipos dando mejoras y avances a nuestros clientes.</p>
-            <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+            
           </div>
         </div>
     </div>
@@ -134,6 +132,9 @@
           <!-- Copyright -->
     </footer >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
