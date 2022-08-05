@@ -41,7 +41,10 @@
   transition: all 0.6s ease 0s;
 }
 
-.icon_foot {
+.btn_foot {
+  --bs-btn-bg: #69696996;
+}
+.btn_foot .icon_foot {
   width: 32px;
   height: 30px;
 }
