@@ -4,97 +4,194 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Servicio tecnico especializado en soporte Hardware, Ventas de Hardware, diseño y programacion Web">
-    <meta name="keywords" content="Html, Css, bootstrap, Sass, Hardware, Ventas, Hardware, Software, Perifericos, Pc, Gamer, Soporte">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="./sass/index.css">    
-    <title>Good Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
 </head>
 <body>
-    
-   <!-- header section -->
+    <header class="site-header sticky-top py-1">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+          <a class="py-2" href="#" aria-label="Product">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+          </a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Tour</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Product</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Features</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Enterprise</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Support</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Pricing</a>
+          <a class="py-2 d-none d-md-inline-block" href="#">Cart</a>
+        </nav>
+      </header>
 
-    <section id="header">
-        <div class="container-fluid animate__animated animate__fadeInLeft">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container">
-                    <a href="./index.html" class="navbar-brand">Good Service</a>
-                    <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse animate__animated animate__fadeInLeft" id="navbarText">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a href="./index.html" class="nav-link">Home</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="./tienda.html" class="nav-link">Tienda</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="./clientes.html" class="nav-link">clientes</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="./nosotros.html" class="nav-link">Nosotros</a>
-                            </li>
-                            <li class="nav-item ">
-                                <a href="./contacto.html" class="nav-link">Contacto</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </section>
-
-    <!-- Main section -->
-    <section class="main">
-        <div class="container-main">
-            <div class="container col-sm-12">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6 animate__animated animate__fadeInLeft">
-                        <h1 class="">Good Service</h1>
-                        <p>Tu empresa y equipos en manos de profesionales 
-                        </br>en el area.</p> 
-                        <a href="./contacto.html" class="readMore">Contactenos!</a>
-                    </div>
-                </div>
+      <main>
+        <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+            <div id="particles-js">
+                <!-- <img id="img_banner" src="./img/image (1).png" alt=""> -->
             </div>
         </div>
-    </section>
-
-    <!-- Footer Section-->
-
-    <footer class="bg-dark text-center text-white">
-        <div class="container p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn_foot btn-outline-light btn-floating m-1" href="https://www.facebook.com" role="button"
-                  ><img class="icon_foot" src="./img/face.png" alt="Facebook"></i
-                ></a>
-          
-                <!-- Instagram -->
-                <a class="btn btn_foot btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
-                  ><img class="icon_foot" src="./img/insta.png" alt="Instagram"></i
-                ></a>
-          
-                <!-- Twitter -->
-                <a class="btn btn_foot btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
-                  ><img class="icon_foot" src="./img/twt.png" alt="Twitter"></i
-                ></a>
-              </section>
-            <!-- Section: Social media -->
+        
+        
+        <div class="container marketing">
+            <hr class="featurette-divider">
+            <div class="row featurette shadow-lg">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading fw-normal lh-1">SEl Grupo de Estudio de la Cognición Social (GECS)</h2>
+                  <br>
+                  <p class="lead">Se constituye el 19 de marzo del año 2020, cuya creación se basa en la inquietud de académicos y estudiantes de la carrera de Psicología UDLA, sede Concepción, por generar una instancia que no sólo promueva las habilidades y conocimientos para la investigación aplicada, sino que también contribuya al desarrollo de procesos sociocognitivos y afectivos que mejoren y fortalezcan el crecimiento personal y la interacción con otros, estimulando la construcción de un sentido que facilite la integración comunitaria y el logro del bienestar. Los alcances del GECS enfatizan el desarrollo de procesos de colaboración en investigación aplicada que faciliten y fortalezcan la productividad científica de estudiantes, académicos y docentes.</p>
+                </div>
+                <div class="col-md-5">
+                  <img class = "img_cuerpo img-fluid" src="./img/Sede-Vina-del-Mar.jpeg" alt="">
+                </div>
+            </div>
+            <hr class="featurette-divider">
         </div>
-          <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            <p>© 2020 Copyright:</p>
-            <a class="text-white" href="https://www.facebook.com/people/GoodService/100068190904135/">GoodService.cl</a>
-        </div>
-          <!-- Copyright -->
-    </footer >
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                  <!-- Facebook -->
+                  <a class="btn btn_foot btn-outline-light btn-floating m-1" href="https://www.facebook.com" role="button"
+                    ><img class="icon_foot" src="./img/face.png" alt="Facebook"></i
+                  ></a>
+            
+                  <!-- Instagram -->
+                  <a class="btn btn_foot btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
+                    ><img class="icon_foot" src="./img/insta.png" alt="Instagram"></i
+                  ></a>
+            
+                  <!-- Twitter -->
+                  <a class="btn btn_foot btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"
+                    ><img class="icon_foot" src="./img/twt.png" alt="Twitter"></i
+                  ></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+              <!-- Grid container -->
+            
+              <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                <p>© 2020 Copyright:</p>
+                <a class="text-white" href="">GECS 2021</a>
+            </div>
+              <!-- Copyright -->
+        </footer >
+    <script src="/js/particles.min.js"></script>
+    <script>
+        particlesJS(
+            {
+        "particles": {
+        "number": {
+        "value": 72,
+        "density": {
+        "enable": true,
+        "value_area": 561.194221302933
+         }
+        },
+        "color": {
+        "value": "#ff6e09"
+        },
+        "shape": {
+        "type": "circle",
+        "stroke": {
+        "width": 0,
+        "color": "#000000"
+        },
+        "polygon": {
+        "nb_sides": 5
+        },
+        "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+            }
+        },
+        "opacity": {
+        "value": 1,
+        "random": true,
+        "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+            }
+        },
+        "size": {
+        "value": 8.017060304327615,
+        "random": true,
+        "anim": {
+        "enable": false,
+        "speed": 4.872463273808071,
+        "size_min": 55.22125043649147,
+        "sync": false
+        }
+        },
+        "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#000000",
+        "opacity": 0.4,
+        "width": 1
+        },
+        "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+            }
+        }
+        },
+        "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+        "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "push"
+      },
+      "resize": true
+    },
+        "modes": {
+        "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+        }
+        },
+        "retina_detect": false
+        })
+    </script>
 </body>
 </html>
