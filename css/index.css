@@ -1,9 +1,8 @@
 * {
     margin: 0%;
     padding: 0%;
- 
+    font-family: Montserrat, sans-serif;
   }
-
 
 #img_banner{
     width: 40%;
@@ -17,11 +16,15 @@
 
 #particles-js{
     background-image: url("../img/image\ \(1\).png");
-    background-size: 38% 100%;
+    background-size: 36% 100%;
     background-repeat: no-repeat;
     background-position: center;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     
+}
+
+#content{
+  padding-top: 60px;
 }
 
 .marketing .col-lg-4 {
@@ -63,3 +66,14 @@
   /* .marketing{
     padding-bottom:70px ;
   } */
+
+@media (max-width:440px) {
+  
+  #particles-js {
+    background-image: url(../img/image\ \(1\).png);
+    background-size: 77% 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 145%;
+  }
+}
