@@ -4,6 +4,12 @@
     font-family: Montserrat, sans-serif;
   }
 
+/* Navbar */
+#logo{
+  display: none;
+}
+/* banner */
+
 #img_banner{
     width: 40%;
 }
@@ -20,24 +26,14 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 2%;
-    
 }
 
-#content{
-  padding-top: 60px;
-}
+/* Contenido */
 
-.marketing .col-lg-4 {
-    margin-bottom: 1.5rem;
-    text-align: center;
+  #content{
+    padding-top: 60px;
   }
-  /* rtl:begin:ignore */
-  .marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-  }
-  /* rtl:end:ignore */
-  
+
   .lh-1{
     padding-top: 30px;
   }
@@ -45,15 +41,16 @@
     padding-bottom: 30px ;
   }
   
-  /* Featurettes
-  ------------------------- */
-  
   .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+    margin: 5rem 0; 
+  }  
+  
+  .text-justify{
+
+    text-align: justify; 
+    text-justify: inter-word;
   }
   
-  /* Thin out the marketing headings */
-  /* rtl:begin:remove */
   .featurette-heading {
     letter-spacing: -.05rem;
   }
@@ -63,9 +60,21 @@
     height: 340px;
     width: 500px;
   }
-  /* .marketing{
-    padding-bottom:70px ;
-  } */
+
+
+  @media (max-width: 1600px) {
+  
+    #particles-js {
+      background-image: url(../img/image\ \(1\).png);
+      background-size: 28% 70%;
+      background-repeat: no-repeat;
+      background-position: top;
+      padding-bottom: 10%;
+    }
+    .div-banner{
+      height: 670px;
+    }
+  }  
 
 @media (max-width:440px) {
   
@@ -75,5 +84,11 @@
     background-repeat: no-repeat;
     background-position: center;
     padding-bottom: 145%;
+    
   }
+  .lead {
+    font-size: 1.00rem;
+    
+}
+
 }
