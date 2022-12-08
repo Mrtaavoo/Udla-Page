@@ -62,7 +62,10 @@ section .banner-box {
   }
 
 /* footer */
-
+  
+  .footer{
+    padding: 3%!important; 
+  }
   footer{
     margin-top: 4%;
   }

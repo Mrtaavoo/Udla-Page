@@ -53,8 +53,17 @@ section .banner-box {
     margin-top: 25px;
   }
 
+  .francesa{
+    margin-left: 2em;
+    text-indent: -2em;
+  }
+
 
   /* footer */
+  
+  .footer{
+    padding: 3%!important; 
+  }
 
   footer{
     margin-top: 4%;

@@ -34,16 +34,17 @@
     background-color: #ffffff !important;
     padding: 0% !important;
     filter: brightness(0.7);
-}
-#header {
-  position: relative;
-  z-index: 10;
-  width: 100%;
-}
+  }
+  #header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+  }
+  .banner-box{
+    margin-bottom: 5%;
+  }
 
-
-
-/* contenido */
+  /* contenido */
   
   .lh-1{
     padding-top: 30px;
@@ -93,8 +94,11 @@
   }
  
 
-  
   /* footer */
+  
+  .footer{
+    padding: 3%!important; 
+  }
 
   footer{
     margin-top: 4%;

@@ -56,9 +56,16 @@
   }
   
   .img_cuerpo{
-    padding-top: 70px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     height: 340px;
     width: 500px;
+  }
+
+  /* footer */
+  
+  .footer{
+    padding: 3%!important; 
   }
 
 

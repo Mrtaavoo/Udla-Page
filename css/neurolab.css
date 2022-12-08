@@ -32,70 +32,70 @@ section .banner-box {
   /* contenido */
 
   .banner-box{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   } 
   .m-md-3 {
     margin: 0rem!important;
     background-color: #ffffff !important;
     padding: 0% !important;
     filter: brightness(0.7);
-    }
-    #header {
-     position: relative;
-     z-index: 10;
-     width: 100%;
-    }
-
-    /* contenido */
-  
+  }
+  #header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+  }
+  .text-muted { 
+    color: #000000!important;
+  }
   .lh-1{
     padding-top: 30px;
-  }
+    }
   .lead{
     padding-bottom: 30px ;
   }
-  
   .featurette-divider {
     margin: 1rem 0; 
   }
-  
   .featurette-heading {
     letter-spacing: -.05rem;
   }
-  
   .text-justify{
-
     text-align: justify; 
     text-justify: inter-word;
   }
-
-  #img_mid{
-    padding-left: 5%;;
+  #img_logo_1{
+    width: 65%;
+  }
+  #img_logo_2{
+    width: 100%;
+    padding-top: 1%;
   }
 
-  .container{
-    --bs-gutter-x: 2.5rem;
-    width: 96%;
-  }
 
-  .container_cont {
-    padding-bottom: 5%;
-  }
-  .container_cont .row {
-    --bs-gutter-x: 0;
-  }
-  .container_cont .row .col-lg-4 {
-    text-align: center;
-  }
+  /* fila 3 */
 
-  /* footer */
+
   
+  .logo_1 {
+    width: 730px;
+    height: 140px;
+    padding-left: 50%;
+  }
+  .logo_2 {
+    width: 825px;
+    height: 126px;
+    margin-top: 17px;
+    padding-right: 46%;
+  }
+  /* footer */
+
   .footer{
     padding: 3%!important; 
   }
 
   footer{
-    margin-top: 4%;
+    margin-top: 6%;
   }
 
 @media (max-width: 440px) {
@@ -103,6 +103,29 @@ section .banner-box {
       background-position: 69%;
     }
     .banner-box{
-        margin-bottom: 10%;
-      } 
+        margin-bottom: 1%;
+    }
+    .py-4{
+      padding-top: 1%!important;
+    } 
+    .lead {
+        margin: 15px;
+    }
+    .logo_1 { 
+      width: 350px;
+      height: 170px;
+      padding-left: 0%;
+    }
+    .logo_2 {
+      width: 350px;
+      height: 110px;
+      padding-right: 0;
+    }
+    .row {
+      --bs-gutter-x: 0; 
+    }
+    .clas_m{
+      margin: 30px;
+    }
 }
+

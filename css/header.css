@@ -22,3 +22,8 @@
   .logo{
     height: 50px;
   }
+
+  .nav-link{
+    /* font-family: 'Dosis', sans-serif; */
+    font-size: 17px;
+  }
