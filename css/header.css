@@ -6,7 +6,7 @@
     background-color: rgba(0, 0, 0, .85)
   } */
   .site-header {
-    background-color: rgba(0, 0, 0, .85) !important;
+    background-color: rgb(1 1 1) !important;
     /* -webkit-backdrop-filter: saturate(180%) blur(20px);   */
   }
   .site-header a {
@@ -27,3 +27,12 @@
     /* font-family: 'Dosis', sans-serif; */
     font-size: 17px;
   }
+
+  .mx-lg-5 {
+    margin-right: 0rem!important;
+    margin-left: 9rem!important;
+  }
+
+  .container-xl, .container-xxl {
+    max-width: 1679px;
+}
