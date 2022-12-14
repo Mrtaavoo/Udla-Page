@@ -10,7 +10,7 @@
     /* -webkit-backdrop-filter: saturate(180%) blur(20px);   */
   }
   .site-header a {
-    color: #8e8e8e;
+    color: #b2b2b2;
     transition: color .15s ease-in-out;
     text-decoration: none;
   }
@@ -24,13 +24,13 @@
   }
 
   .nav-link{
-    /* font-family: 'Dosis', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
   }
 
   .mx-lg-5 {
     margin-right: 0rem!important;
-    margin-left: 10rem!important;
+    margin-left: 11rem!important;
   }
 
   .container-xl, .container-xxl {

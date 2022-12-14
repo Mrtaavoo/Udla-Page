@@ -21,7 +21,7 @@
 }
 
 #particles-js{
-    background-image: url("../img/image\ \(1\).png");
+    background-image: url("../img/index.png");
     background-size: 36% 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -72,7 +72,7 @@
   @media (max-width: 1600px) {
   
     #particles-js {
-      background-image: url(../img/image\ \(1\).png);
+      background-image: url(../img/index.png);
       background-size: 28% 70%;
       background-repeat: no-repeat;
       background-position: top;
@@ -86,7 +86,7 @@
 @media (max-width:440px) {
   
   #particles-js {
-    background-image: url(../img/image\ \(1\).png);
+    background-image: url(../img/index.png);
     background-size: 77% 65%;
     background-repeat: no-repeat;
     background-position: center;
