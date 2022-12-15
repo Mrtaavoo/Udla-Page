@@ -36,3 +36,12 @@
   .container-xl, .container-xxl {
     max-width: 1679px;
 }
+
+@media (max-width:440px) {
+  
+  .mx-lg-5 {
+    margin-right: 0rem!important;
+    margin-left: 1rem!important;
+  }
+
+}
