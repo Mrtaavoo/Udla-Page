@@ -98,6 +98,24 @@ section .banner-box {
     margin-top: 6%;
   }
 
+
+  @media (max-width: 1600px) {
+    
+    .logo_1 {
+      width: 700px;
+      height: 137px;
+      padding-left: 50%;
+    }
+    .logo_2 {
+      width: 740px;
+      height: 92px;
+      margin-top: 48px;
+      padding-right: 46%;
+    }
+    
+  }  
+
+
 @media (max-width: 440px) {
     .banner-box {
       background-position: 69%;
